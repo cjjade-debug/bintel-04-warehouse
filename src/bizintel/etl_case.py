@@ -38,15 +38,15 @@ OBS:
 
 # === IMPORTS ===
 
-from pathlib import Path
+from pathlib import Path  # noqa: I001
 from typing import Final
 
-from datafun_toolkit.logger import log_path
-import duckdb
-import pandas as pd
+from datafun_toolkit.logger import log_path  # type: ignore
+import duckdb  # type: ignore
+import pandas as pd  # type: ignore
 
 from bizintel.utils_data import load_data
-from bizintel.utils_logger import LOG, log_header
+from bizintel.utils_logger import LOG, log_header  # type: ignore
 
 # === DECLARE CONSTANTS ===
 
