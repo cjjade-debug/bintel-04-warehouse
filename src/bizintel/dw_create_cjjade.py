@@ -40,13 +40,13 @@ OBS:
 
 # === IMPORTS (USE uv to CREATE YOUR ENVIRONMENT) ===
 
-from pathlib import Path  # noqa: I001
+from pathlib import Path
 from typing import Final
 
-from datafun_toolkit.logger import log_path  # type: ignore
-import duckdb  # type: ignore # Verify duckdb is in pyproject.toml dependencies
+from datafun_toolkit.logger import log_path
+import duckdb  # Verify duckdb is in pyproject.toml dependencies
 
-from bizintel.utils_logger import LOG, log_header  # type: ignore
+from bizintel.utils_logger import LOG, log_header
 
 # === DECLARE CONSTANTS ===
 

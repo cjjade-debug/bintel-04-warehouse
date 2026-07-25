@@ -21,7 +21,7 @@ authors:
     orcid: "https://orcid.org/0000-0001-6165-7389"
     affiliation: "Northwest Missouri State University, School of Computer Science and Information Systems, Maryville, MO, USA"
 
-family-names: Jade
+  - family-names: Jade
     given-names: CJ
     affiliation: "Northwest Missouri State University, Maryville, MO, USA"
 
