@@ -1,0 +1,201 @@
+CustomerID,Name,Region,JoinDate,SpendingScore,TierLevel,DefaultPaymentType
+1000,Robert Gomez,West,2/25/2024,Unknown,Standard,Credit/Debit
+1001,John Silva,East,12/1/2020,Unknown,Standard,ACH
+1002,Mark Marshall,Central,8/8/2020,Unknown,Standard,Cash
+1003,David Brennan,North,5/21/2020,Unknown,Standard,ACH
+1004,Kerry Collins,North,9/12/2023,Unknown,Standard,Credit/Debit
+1005,Jessica Mora,South,8/5/2021,Unknown,Standard,Credit/Debit
+1006,Hannah Ray,West,7/3/2021,Unknown,Standard,Credit/Debit
+1007,David Kim,West,5/20/2020,Unknown,Standard,Credit/Debit
+1008,William Ramirez,East,9/15/2023,Unknown,Standard,Credit/Debit
+1009,Zachary Bell Jr.,East,4/20/2023,Unknown,Standard,ACH
+1010,Mike Davis,East,3/23/2022,Unknown,Standard,ACH
+1011,Amanda Myers,West,9/5/2021,Unknown,Standard,Cash
+1012,Tara Miller,North,8/10/2020,Unknown,Standard,Cash
+1013,Alyssa Morgan,North,7/22/2022,Unknown,Standard,ACH
+1014,Cindy Woods,East,4/2/2024,Unknown,Standard,Digital
+1015,Jennifer Rodgers,North,2/12/2023,Unknown,Standard,ACH
+1016,Andrea Roberts,East,5/16/2021,Unknown,Standard,ACH
+1017,Brittney Burnett,North,7/3/2020,Unknown,Standard,Cash
+1018,Edwin Garrison,South West,8/31/2020,Unknown,Standard,Cash
+1019,Michelle Torres,Central,11/18/2020,Unknown,Standard,ACH
+1020,Michelle Brewer,East,7/14/2021,Unknown,Standard,Cash
+1021,Aaron Burnett,South,2/13/2024,Unknown,Standard,Debit/Credit
+1022,Austin Gutierrez,East,11/25/2021,Unknown,Standard,Credit/Debit
+1023,Dustin Medina,East,6/14/2021,Unknown,Standard,ACH
+1024,Andres Avila,Central,9/19/2022,Unknown,Standard,ACH
+1025,Garrett Lewis,South,8/4/2023,Unknown,Standard,ACH
+1026,Gary Walls,North,10/5/2023,Unknown,Standard,Credit/Debit
+1027,Anthony Schroeder,East,10/4/2020,Unknown,Standard,Cash
+1028,Haley Wagner,West,11/3/2023,Unknown,Standard,Credit/Debit
+1029,Gina Powers,West,10/26/2022,Unknown,Standard,Credit/Debit
+1030,Alice Robinson,East,8/6/2021,Unknown,Standard,Credit/Debit
+1031,Jessica Frazier,West,10/20/2021,Unknown,Standard,Credit/Debit
+1032,Terri Long,East,10/23/2022,Unknown,Standard,Credit/Debit
+1033,Paul Perkins,East,3/16/2022,Unknown,Standard,Credit/Debit
+1034,Heather Smith,Central,9/16/2022,Unknown,Standard,ACH
+1035,Lorraine Rodriguez,East,9/26/2022,Unknown,Standard,ACH
+1036,Robert Bishop,South West,9/14/2020,Unknown,Standard,Cash
+1037,Lisa Sanders,West,6/3/2020,Unknown,Standard,Cash
+1038,Jason Ford,East,10/9/2023,Unknown,Standard,ACH
+1039,Brandy Good,West,5/21/2023,Unknown,Standard,Cash
+1040,Angel Lee,Central,4/8/2022,Unknown,Standard,ACH
+1041,David Beltran,East,1/18/2021,Unknown,Standard,ACH
+1042,Christopher Dodson,North,10/30/2023,Unknown,Standard,Cash
+1043,Eric Pena,West,6/30/2022,Unknown,Standard,ACH
+1044,Anita Huerta,East,4/8/2022,Unknown,Standard,Credit/Debit
+1045,Dr. Susan Bailey,North,10/2/2020,Unknown,Standard,Cash
+1046,Tyler Colon,Central,3/3/2021,Unknown,Standard,Credit/Debit
+1047,Ashley Pearson,West,10/4/2020,Unknown,Standard,ACH
+1048,Dr. Donald Proctor,North,3/17/2024,Unknown,Standard,Credit/Debit
+1049,Rebecca Jordan,West,10/8/2022,Unknown,Standard,ACH
+1050,Jeffrey Mclaughlin,East,3/28/2022,Unknown,Standard,Credit/Debit
+1051,Amy Nguyen,Central,2/13/2024,Unknown,Standard,Digital
+1052,Brandon Hinton,South West,11/10/2022,Unknown,Standard,Credit/Debit
+1053,Benjamin Cline,East,1/25/2022,Unknown,Standard,Credit/Debit
+1054,Laura Mcdonald,South,12/3/2022,Unknown,Standard,Cash
+1055,William Benitez,East,11/4/2020,Unknown,Standard,Credit/Debit
+1056,Kristina Wilson,East,5/15/2023,Unknown,Standard,Cash
+1057,Kathy Hall,North,10/27/2023,Unknown,Standard,ACH
+1058,Steven Jackson,Central,6/26/2020,Unknown,Standard,ACH
+1059,Steve Massey,West,8/6/2020,Unknown,Standard,Credit/Debit
+1060,Mr. Christopher Thompson,South,4/10/2023,Unknown,Standard,ACH
+1061,Taylor Kaufman,North,7/23/2021,Unknown,Standard,Credit/Debit
+1062,Ashley Harmon,South,2/13/2024,Unknown,Standard,Digital
+1063,Howard Case,South West,2/15/2021,Unknown,Standard,Credit/Debit
+1064,Joshua Cline,East,2/19/2024,Unknown,Standard,Digital
+1065,Daniel Adams,Central,7/2/2023,Unknown,Standard,ACH
+1066,Derrick Myers,North,4/6/2022,Unknown,Standard,Credit/Debit
+1067,Lawrence Pearson,East,4/29/2023,Unknown,Standard,ACH
+1068,Melissa Gutierrez,East,12/25/2023,Unknown,Standard,ACH
+1069,Virginia Warren,North,8/24/2023,Unknown,Standard,Credit/Debit
+1070,Brittany Johnson,East,6/4/2021,Unknown,Standard,ACH
+1071,Christopher Frost,East,8/21/2020,Unknown,Standard,Credit/Debit
+1072,Shannon Schmitt,East,8/23/2022,Unknown,Standard,Credit/Debit
+1073,Matthew Clark,Central,8/21/2023,Unknown,Standard,Cash
+1074,Alyssa Evans,West,10/27/2021,Unknown,Standard,Credit/Debit
+1075,Joseph Chavez,North,1/1/2023,Unknown,Standard,ACH
+1076,Glenn Shelton,East,5/1/2024,Unknown,Standard,Digital
+1077,Amy Espinoza,North,5/29/2021,Unknown,Standard,Credit/Debit
+1078,Danielle Fuller,South West,12/8/2023,Unknown,Standard,ACH
+1079,Zachary Thompson Md,East,9/5/2022,Unknown,Standard,Credit/Debit
+1080,Thomas Parker,South West,2/28/2023,Unknown,Standard,ACH
+1081,Ryan White,South,9/4/2020,Unknown,Standard,Credit/Debit
+1082,Connor Martin,Central,1/5/2023,Unknown,Standard,ACH
+1083,Jacqueline Bishop,South,6/5/2020,Unknown,Standard,Cash
+1084,Martha Mccall,North,5/31/2022,Unknown,Standard,Credit/Debit
+1085,Steven Wright,Central,8/22/2021,Unknown,Standard,Cash
+1086,Robert Rodriguez,East,3/1/2023,Unknown,Standard,Credit/Debit
+1087,Carla Tran,East,7/22/2020,Unknown,Standard,Cash
+1088,Lindsay Torres,East,12/30/2021,Unknown,Standard,ACH
+1089,Matthew Hernandez,North,4/12/2023,Unknown,Standard,ACH
+1090,Nicholas Dunlap,South,10/11/2020,Unknown,Standard,Cash
+1091,Brianna Thomas,South West,5/23/2023,Unknown,Standard,ACH
+1092,Timothy Hill,West,9/7/2023,Unknown,Standard,Credit/Debit
+1093,Christian Medina,East,2/4/2023,Unknown,Standard,ACH
+1094,Robert Jones,West,11/18/2023,Unknown,Standard,ACH
+1095,Dr. Jason Scott,South,4/7/2021,Unknown,Standard,Credit/Debit
+1096,Patricia Rogers,South,1/10/2024,Unknown,Standard,Debit/Credit
+1097,Laura Jones,East,12/7/2023,Unknown,Standard,ACH
+1098,Jeffrey Maxwell,West,1/27/2022,Unknown,Standard,Credit/Debit
+1099,Lori Howard,East,2/27/2021,Unknown,Standard,Credit/Debit
+1100,Michael Simon,East,12/27/2020,Unknown,Standard,Credit/Debit
+1101,Ryan Martin,South West,11/14/2020,Unknown,Standard,Credit/Debit
+1102,Robert Hansen,Central,11/19/2022,Unknown,Standard,Credit/Debit
+1103,Megan Chandler,East,6/25/2023,Unknown,Standard,ACH
+1104,David Herrera,West,4/1/2021,Unknown,Standard,ACH
+1105,Taylor Clarke,Central,3/11/2023,Unknown,Standard,Credit/Debit
+1106,Jennifer Ewing,East,5/16/2023,Unknown,Standard,ACH
+1107,Emily Hoffman,West,6/9/2023,Unknown,Standard,Credit/Debit
+1108,Sharon Bautista,Central,7/31/2022,Unknown,Standard,ACH
+1109,Aaron Garcia,East,7/31/2023,Unknown,Standard,ACH
+1110,Melissa Grimes,South,3/14/2024,Unknown,Standard,Debit/Credit
+1111,Ronald Chavez,South West,6/24/2021,Unknown,Standard,Credit/Debit
+1112,Joseph Flores,East,4/3/2021,Unknown,Standard,ACH
+1113,Louis Jones,Central,7/4/2021,Unknown,Standard,Credit/Debit
+1114,Grace Price,South,3/25/2022,Unknown,Standard,ACH
+1115,Gina Banks,West,9/16/2023,Unknown,Standard,Cash
+1116,Melissa Rivera,Central,10/25/2021,Unknown,Standard,Cash
+1117,Amanda Lang,North,4/14/2024,Unknown,Standard,Credit/Debit
+1118,Briana Alvarado,South,3/18/2022,Unknown,Standard,ACH
+1119,Cameron Hernandez,East,8/8/2022,Unknown,Standard,ACH
+1120,Daniel Meyer,South,3/15/2024,Unknown,Standard,Debit/Credit
+1121,Stephanie Garrison,East,8/21/2020,Unknown,Standard,ACH
+1122,Christopher Martinez,East,10/7/2021,Unknown,Standard,Credit/Debit
+1123,Colleen Greene,South West,8/21/2022,Unknown,Standard,ACH
+1124,Megan Novak,East,12/19/2022,Unknown,Standard,Credit/Debit
+1125,Debbie Andrews,West,5/22/2021,Unknown,Standard,Credit/Debit
+1126,Lee Luna,East,1/19/2021,Unknown,Standard,Cash
+1127,George Edwards,Central,5/12/2023,Unknown,Standard,ACH
+1128,Vincent Day,North,7/3/2022,Unknown,Standard,ACH
+1129,Karina Jones,East,11/5/2023,Unknown,Standard,Credit/Debit
+1130,Mary Sandoval,North,10/6/2020,Unknown,Standard,ACH
+1131,Mark Gomez,West,6/11/2020,Unknown,Standard,Cash
+1132,Scott Winters,West,9/20/2022,Unknown,Standard,Cash
+1133,Victor Wagner,South West,6/12/2021,Unknown,Standard,ACH
+1134,Joseph Aguilar,West,12/5/2023,Unknown,Standard,Credit/Debit
+1135,Christopher Chen,South,9/10/2023,Unknown,Standard,Cash
+1136,Scott Hernandez,South,2/9/2024,Unknown,Standard,Digital
+1137,Jessica Harmon,South West,11/5/2022,Unknown,Standard,Cash
+1138,Bonnie Stewart,South,4/19/2022,Unknown,Standard,Credit/Debit
+1139,Heather Olson,Central,4/20/2021,Unknown,Standard,ACH
+1140,Carla Flores,East,9/30/2020,Unknown,Standard,ACH
+1141,David Palmer,North,9/16/2022,Unknown,Standard,Credit/Debit
+1142,Marvin Hamilton,North,4/23/2022,Unknown,Standard,ACH
+1143,Miss Chelsea Castro Dds,Central,2/23/2021,Unknown,Standard,Cash
+1144,Brian Browning,East,5/3/2023,Unknown,Standard,Credit/Debit
+1145,Stephanie Powell,East,2/3/2023,Unknown,Standard,ACH
+1146,Jonathan Andrade,South West,6/7/2020,Unknown,Standard,Credit/Debit
+1147,William Palmer,South West,8/14/2023,Unknown,Standard,Cash
+1148,Dean Allison,West,6/23/2021,Unknown,Standard,Credit/Debit
+1149,Jordan Elliott,North,5/13/2020,Unknown,Standard,ACH
+1150,Bobby Hunter,North,12/6/2020,Unknown,Standard,ACH
+1151,Sabrina Lester,West,7/16/2022,Unknown,Standard,ACH
+1152,Thomas Garcia,East,9/14/2022,Unknown,Standard,Credit/Debit
+1153,Michelle Martinez,East,7/31/2023,Unknown,Standard,Credit/Debit
+1154,Edward Castillo,North,10/1/2020,Unknown,Standard,Credit/Debit
+1155,Rachel Goodman,North,4/10/2023,Unknown,Standard,Credit/Debit
+1156,Dennis Acevedo,East,6/18/2023,Unknown,Standard,ACH
+1157,Cheryl Wu,West,12/10/2021,Unknown,Standard,ACH
+1158,Kelly Gallagher,East,3/2/2024,Unknown,Standard,Debit/Credit
+1159,Kelli Smith,North,1/28/2022,Unknown,Standard,ACH
+1160,Phillip Soto,West,4/21/2023,Unknown,Standard,Credit/Debit
+1161,David Ellis,East,1/2/2023,Unknown,Standard,Cash
+1162,Deborah Rice,East,1/14/2022,Unknown,Standard,ACH
+1163,Elizabeth Vaughn,West,5/1/2023,Unknown,Standard,Credit/Debit
+1164,William Ramsey,North,5/4/2023,Unknown,Standard,ACH
+1165,Richard Burnett,Central,7/24/2022,Unknown,Standard,Credit/Debit
+1166,David Mccullough,South West,12/15/2021,Unknown,Standard,ACH
+1167,Terry Frederick,North,12/20/2021,Unknown,Standard,Credit/Debit
+1168,Denise Gonzales,South,5/2/2022,Unknown,Standard,Credit/Debit
+1169,Michael Edwards,South West,9/26/2023,Unknown,Standard,Credit/Debit
+1170,Eric Davis,North,10/15/2023,Unknown,Standard,ACH
+1171,Ronald Marquez,South West,4/21/2024,Unknown,Standard,Credit/Debit
+1172,Eric Barr,East,2/1/2023,Unknown,Standard,ACH
+1173,David King Md,North,9/14/2022,Unknown,Standard,Credit/Debit
+1174,Deborah Saunders,West,12/25/2021,Unknown,Standard,ACH
+1175,Teresa Lopez,West,10/20/2021,Unknown,Standard,ACH
+1176,Ashley Williams,East,11/24/2021,Unknown,Standard,Credit/Debit
+1177,Katherine West,East,11/1/2020,Unknown,Standard,ACH
+1178,Katherine Kerr,East,11/13/2020,Unknown,Standard,Cash
+1179,Desiree Miller,East,12/21/2021,Unknown,Standard,Credit/Debit
+1180,Jennifer Smith,South West,10/3/2020,Unknown,Standard,ACH
+1181,Tiffany Smith,East,4/7/2024,Unknown,Standard,Digital
+1182,James Gray,West,7/24/2020,Unknown,Standard,Credit/Debit
+1183,Kenneth Graves,East,5/8/2020,Unknown,Standard,Credit/Debit
+1184,Brittney Chen,East,7/20/2023,Unknown,Standard,ACH
+1185,Cameron Levine,East,7/26/2021,Unknown,Standard,Credit/Debit
+1186,Timothy Williams,West,9/28/2021,Unknown,Standard,Credit/Debit
+1187,Kayla Solomon,North,6/10/2022,Unknown,Standard,Credit/Debit
+1188,Ashley Todd,North,9/4/2023,Unknown,Standard,ACH
+1189,Jennifer Farrell,North,11/18/2022,Unknown,Standard,Credit/Debit
+1190,Elizabeth Robinson,South West,12/27/2023,Unknown,Standard,ACH
+1191,Kyle Smith Jr.,South,10/31/2023,Unknown,Standard,Credit/Debit
+1192,Gregory Medina,East,6/6/2020,Unknown,Standard,ACH
+1193,Nancy King,South,5/23/2022,Unknown,Standard,Cash
+1194,Casey Brown,Central,2/9/2024,Unknown,Standard,Digital
+1195,Michael Lee,South West,8/22/2023,Unknown,Standard,Credit/Debit
+1196,Dr. Elizabeth Johnston Dds,North,2/9/2022,Unknown,Standard,ACH
+1197,William Wilson,West,4/4/2023,Unknown,Standard,ACH
+1198,Chris Allen,South West,10/11/2022,Unknown,Standard,Cash
+1199,James Cooley,West,7/23/2020,Unknown,Standard,ACH
