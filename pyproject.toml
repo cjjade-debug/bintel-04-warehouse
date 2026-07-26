@@ -69,7 +69,7 @@ exclude = [
     "build",
     "dist",
     "site",
-    "*.egg-info",
+    "*.egg-info", ".venv4",
 ]
 
 # WHY: Match the course Python target so version-specific inference is correct.

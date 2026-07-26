@@ -5,8 +5,8 @@ We call this ETL (Extract, Transform, Load).
 
 Before this, call the dw_create_case.py script to create the empty data warehouse.
 
-Author: Denise Case
-Date: 2026-06
+Author: CJ Jade
+Date: 2026-07
 
 Process:
     - Connect to the DuckDB data warehouse.
@@ -17,16 +17,16 @@ Process:
     - Verify row counts after loading.
 
 Data Source:
-- data/prepared/customers_data_prepared.csv
-- data/prepared/products_data_prepared.csv
-- data/prepared/sales_data_prepared.csv
+- data/prepared/customers_data_prepared_cjjade.csv
+- data/prepared/products_data_prepared_cjjade.csv
+- data/prepared/sales_data_prepared_cjjade.csv
 
 Output:
 - artifacts/smart_sales.duckdb (populated)
 
 Terminal command to run this file from the root project folder:
 
-uv run python -m bizintel.etl_case
+uv run python -m bizintel.etl_cjjade
 
 OBS:
   Don't edit this file - it should remain a working example.
@@ -54,9 +54,9 @@ from bizintel.utils_logger import LOG, log_header  # type: ignore
 DATA_PREPARED: Final[Path] = Path("data/prepared")
 
 # Prepared input files.
-CUSTOMERS_PREPARED: Final[Path] = DATA_PREPARED / "customers_data_prepared.csv"
-PRODUCTS_PREPARED: Final[Path] = DATA_PREPARED / "products_data_prepared.csv"
-SALES_PREPARED: Final[Path] = DATA_PREPARED / "sales_data_prepared.csv"
+CUSTOMERS_PREPARED: Final[Path] = DATA_PREPARED / "customers_data_prepared_cjjade.csv"
+PRODUCTS_PREPARED: Final[Path] = DATA_PREPARED / "products_data_prepared_cjjade.csv"
+SALES_PREPARED: Final[Path] = DATA_PREPARED / "sales_data_prepared_cjjade.csv"
 
 # Path to the DuckDB data warehouse file.
 DW_FILE: Final[Path] = Path("artifacts/smart_sales.duckdb")

@@ -2,8 +2,8 @@
 
 An example of loading and visualizing raw business data.
 
-Author: Denise Case
-Date: 2026-06
+Author: CJ Jade
+Date: 2026-07
 
 Process:
     - Load raw CSV data files.
@@ -11,9 +11,9 @@ Process:
     - Log a summary of findings.
 
 Data Source:
-- data/raw/customers_data.csv
-- data/raw/products_data.csv
-- data/raw/sales_data.csv
+- data/raw/customers_data_cjjade.csv
+- data/raw/products_data_cjjade.csv
+- data/raw/sales_data_cjjade.csv
 
 Terminal command to run this file from the root project folder:
 
@@ -51,9 +51,9 @@ from bizintel.utils_viz import plot_bar
 DATA_RAW: Final[Path] = Path("data/raw")
 
 # The three raw data files for the smart sales project.
-CUSTOMERS_FILE: Final[Path] = DATA_RAW / "customers_data.csv"
-PRODUCTS_FILE: Final[Path] = DATA_RAW / "products_data.csv"
-SALES_FILE: Final[Path] = DATA_RAW / "sales_data.csv"
+CUSTOMERS_FILE: Final[Path] = DATA_RAW / "customers_data_cjjade.csv"
+PRODUCTS_FILE: Final[Path] = DATA_RAW / "products_data_cjjade.csv"
+SALES_FILE: Final[Path] = DATA_RAW / "sales_data_cjjade.csv"
 
 
 # === Section 2. Define Reusable Functions ===
@@ -215,7 +215,7 @@ import seaborn as sns  # type: ignore  # noqa: E402
 
 # Load the data
 df = pd.read_csv(
-    'c:\\Repos\\bintel-04-warehouse\\data\\prepared\\customers_data_prepared.csv'
+    'c:\\Repos\\bintel-04-warehouse\\data\\prepared\\customers_data_prepared_cjjade.csv'
 )
 
 # Convert JoinDate to datetime

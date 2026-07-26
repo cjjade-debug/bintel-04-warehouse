@@ -6,8 +6,8 @@ This project combines SQL and Python - two key skills for BI development.
 It demonstrates recreating an empty star schema data warehouse.
 After calling this, call the etl_case.py script to load data into the warehouse.
 
-Author: Denise Case
-Date: 2026-06
+Author: CJ Jade
+Date: 2026-07
 
 Development: This script is intended for development and testing purposes.
   - It drops and recreates the warehouse tables to ensure a clean slate for testing and development.
@@ -27,7 +27,7 @@ Output:
 
 Terminal command to run this file from the root project folder:
 
-uv run python -m bizintel.dw_create_case
+uv run python -m bizintel.dw_create_cjjade
 
 OBS:
   Don't edit this file - it should remain a working example.
@@ -40,13 +40,13 @@ OBS:
 
 # === IMPORTS (USE uv to CREATE YOUR ENVIRONMENT) ===
 
-from pathlib import Path
+from pathlib import Path  # noqa: I001
 from typing import Final
 
-from datafun_toolkit.logger import log_path
-import duckdb  # Verify duckdb is in pyproject.toml dependencies
+from datafun_toolkit.logger import log_path  # type: ignore
+import duckdb  # type: ignore # Verify duckdb is in pyproject.toml dependencies
 
-from bizintel.utils_logger import LOG, log_header
+from bizintel.utils_logger import LOG, log_header  # type: ignore
 
 # === DECLARE CONSTANTS ===
 
@@ -97,7 +97,10 @@ def create_dim_customers(conn: duckdb.DuckDBPyConnection) -> None:
             CustomerID   INTEGER PRIMARY KEY,
             Name         VARCHAR,
             Region       VARCHAR,
-            JoinDate     DATE
+            JoinDate     DATE,
+            SpendingScore      INTEGER,
+            TierLevel          VARCHAR,
+            DefaultPaymentType VARCHAR
         )
     """)
 
@@ -142,7 +145,9 @@ def create_dim_products(conn: duckdb.DuckDBPyConnection) -> None:
             ProductID    INTEGER PRIMARY KEY,
             ProductName  VARCHAR,
             Category     VARCHAR,
-            UnitPrice    DOUBLE
+            UnitPrice    DOUBLE,
+            Availability VARCHAR,
+            StockQuantity  INTEGER
         )
     """)
 
@@ -191,7 +196,9 @@ def create_fact_sales(conn: duckdb.DuckDBPyConnection) -> None:
             ProductID      INTEGER REFERENCES dim_products(ProductID),
             StoreID        INTEGER,
             CampaignID     INTEGER,
-            SaleAmount     DOUBLE
+            SaleAmount     DOUBLE,
+            Percent        DOUBLE,
+            PaymentType     VARCHAR
         )
     """)
 
