@@ -41,7 +41,7 @@ The data used is from the Customer Data file, ranging from 2020 to 2024.
 
 The customer data has been cleaned, and updated with preferred payment type of each customer. With the idea that digital payment plan was newly added in 2024. This data sheet does not include customers from 2025, unlike the sales data.
 
-### Warehouse Design
+### Warehouse Design/ELT
 
 **Customer Table**
 - CustomerID   INTEGER PRIMARY KEY
@@ -71,7 +71,15 @@ The customer data has been cleaned, and updated with preferred payment type of e
 - Percent        DOUBLE
 - PaymentType     VARCHAR
 
+The datasets was cleanined and transformed. Within this process duplicates were rmeoved, formatting was streamlined, invalid values were recalucated or deleted.
+
+A additional column was later created for Customer Dataset, and went through the same process the inital data went through.
+
 ### Summary
+
+The project that was completed, was comparing data from 2020 to 2025 in relations to Join rates and Payment type usage.
+
+The hope was to fiund a connection between the two, to answer the question "would it be profitable to have a company credit card."
 
 ![Join Date and Region Comparison](./images/Figure_3.png)
 ![Sales by Region](./images/Figure_4.png)

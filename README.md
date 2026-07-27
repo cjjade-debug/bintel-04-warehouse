@@ -110,6 +110,10 @@ git clone https://github.com/cjjade-debug/bintel-04-warehouse
 cd bintel-04-warehouse
 code .
 ```
+### Custom Commands
+- Two new charts can be found on both README.md and Index.md
+- /src there is a new python pages, clean_customer_data,
+- within src/bizintel there is a python_combo_graph_analysis
 
 ### In a VS Code terminal
 
