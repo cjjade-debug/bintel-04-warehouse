@@ -21,65 +21,59 @@ to get the example projects running on your machine.
 
 ## Phase 4. Technical Modification
 
-Describe your small technical modification to the example project.
+The technical change I choose to make, was creating a graph that showed the relationship between the join rate and the regions.
 
-Include:
+I choose this change because understanding which regions have higher rates in joining can be studies to help other regions that struggle.
 
-- What you changed
-- Why you chose that change
-- How you verified that it worked
-- What result, output, chart, metric, or behavior confirmed the change
+This was verified in project.log when it said executed successfully, but also when the code ran a new chart was generated that gave the results I had requested.
 
-Compared with the example project,
-explain what is different and why the change matters.
-
-Was it easy, or surprisingly challenging and why do you think so?
 
 ## Phase 5. Custom Project
 
-Describe your custom data warehouse design and ETVL work.
+My Phase 5 project I did, I did with the question in my head about customer payment and joining. I didn’t plan this route , but given time limits I had to change. The question I tried to answer (for the company) for this project is, should we invest in our credit card.
+
+I used historic data to help create a bigger picture, on the payment types and when customers join. Using this data to help begin forecasting, about promotions on credit usage and becoming a new customer.
+
 
 ### Basis and Data
 
-Describe the prepared data you loaded into the warehouse.
+The data used is from the Customer Data file, ranging from 2020 to 2024.
 
-Include:
-
-- The three prepared data files and what each contains
-- Any assumptions or decisions made during preparation
-- The warehouse file location and format
+The customer data has been cleaned, and updated with preferred payment type of each customer. With the idea that digital payment plan was newly added in 2024. This data sheet does not include customers from 2025, unlike the sales data.
 
 ### Warehouse Design
 
-Describe your star schema design.
+**Customer Table**
+- CustomerID   INTEGER PRIMARY KEY
+- Name         VARCHAR
+- Region       VARCHAR
+- JoinDate     DATE
+- SpendingScore      INTEGER
+- TierLevel          VARCHAR
+- DefaultPaymentType VARCHAR
 
-Include:
+**Product Table**
+- ProductID    INTEGER PRIMARY KEY
+- ProductName  VARCHAR
+- Category     VARCHAR
+- UnitPrice    DOUBLE
+- Availability VARCHAR
+- StockQuantity  INTEGER
 
-- Your fact table and its columns
-- Your dimension tables and their columns
-- Your primary and foreign key relationships
-- Why a star schema fits this data
-
-### ETVL Process
-
-Describe your extract, transform, verify, and load steps.
-
-Include:
-
-- How you extracted data from the prepared CSV files
-- Any transformations applied before loading
-- How you verified the data loaded correctly
-- What the row counts confirmed
+**Sales Table**
+- TransactionID  INTEGER PRIMARY KEY
+- SaleDate       DATE
+- CustomerID     INTEGER
+- ProductID      INTEGER
+- StoreID        INTEGER
+- CampaignID     INTEGER
+- SaleAmount     DOUBLE
+- Percent        DOUBLE
+- PaymentType     VARCHAR
 
 ### Summary
 
-Summarize your custom warehouse work.
-
-Include:
-
-- What you implemented beyond the example
-- What the warehouse contains
-- What you learned about data warehouse design
-- What kinds of real business problems a data warehouse enables
-
-Display at least one screenshot of your populated warehouse tables.
+![Join Date and Region Comparison](./images/Figure_3.png)
+![Sales by Region](./images/Figure_4.png)
+![Sales by Payment Type](./images/Figure_5.png)
+![Join Date and Payment Comparison](./images/Figure_6.png)
